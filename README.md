@@ -16,3 +16,19 @@ Source: Kaggle
 Description: Both datasets together provide structured information about surplus food donors and receivers (NGOs/communities)
 Purpose: To enable smart matching of surplus food from donors to suitable receivers (NGOs/food banks) based on location, food condition, and specific requirements, reducing food waste and supporting communities in need.
 
+
+🧩 Week 2 – Implementation Phase Summary
+
+The system cleans and standardizes donor/receiver data, matches surplus food to nearby NGOs using geolocation logic, and visualizes the results on an interactive map.
+
+🔧 Implementation Steps
+
+Load donor and NGO datasets into Colab.
+Clean and standardize the data (IDs, food type, latitude, longitude).
+Apply matching logic to pair donors with nearby NGOs.
+Generate output showing matched pairs.
+Visualize donors, NGOs, and routes on an interactive map.
+
+✅ Results
+
+The system successfully matched donors with the nearest NGOs using geolocation and displayed the outcome on an interactive map. Donors were shown in red, NGOs in blue, and the connection routes in green, proving the matching logic works visually. The model achieved 100% successful matching for all valid location entries, and the output map clearly demonstrated how surplus food can be redirected instead of wasted.
